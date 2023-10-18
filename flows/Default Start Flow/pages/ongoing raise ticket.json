@@ -1,0 +1,19 @@
+{
+  "name": "96e72491-441a-4b2f-b676-94557384b474",
+  "displayName": "ongoing raise ticket",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.prority_entity != null AND $session.params.cat_entity != null AND $session.params.message != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Alright you have selected $session.params.cat_entity category with $session.params.prority_entity priority and your query is $session.params.message We will get in touch with you." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "345ed51c-883d-45c5-917b-0e4e67d17bd2"
+  } ]
+}

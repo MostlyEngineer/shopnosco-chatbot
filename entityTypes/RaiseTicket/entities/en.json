@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": " Submit a ticket for sales",
+    "synonyms": [ " Submit a ticket for sales" ],
+    "languageCode": "en"
+  }, {
+    "value": " Submit a ticket for orders",
+    "synonyms": [ " Submit a ticket for orders" ],
+    "languageCode": "en"
+  }, {
+    "value": "Generate a ticket on shopment delivery",
+    "synonyms": [ "Generate a ticket on shopment delivery" ],
+    "languageCode": "en"
+  }, {
+    "value": "create ticket",
+    "synonyms": [ "create ticket" ],
+    "languageCode": "en"
+  } ]
+}

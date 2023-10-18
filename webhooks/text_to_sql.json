@@ -1,0 +1,10 @@
+{
+  "name": "1a09ea21-4cf1-49c0-9cc4-9f056ac19a42",
+  "displayName": "text_to_sql",
+  "genericWebService": {
+    "uri": "https://dialog-flow.rscloudteam.com/text_to_sql"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "ae914848-d17d-4ce7-9142-40c75f0d6c4f",
+  "displayName": "user response",
+  "form": {
+    "parameters": [ {
+      "displayName": "message",
+      "required": true,
+      "entityType": "@user_message",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please provide your query or question." ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "message.from.user",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please provide your query or question." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "ongoing raise ticket",
+    "name": "424787ac-ea4b-4e02-a1aa-7fd47dfe3511"
+  }, {
+    "condition": "$session.params.message = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Your question $session.params.message" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "ongoing raise ticket",
+    "name": "68318658-0e57-4fe0-910e-84573cf7c049"
+  } ]
+}

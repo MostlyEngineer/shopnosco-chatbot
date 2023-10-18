@@ -1,0 +1,86 @@
+{
+  "name": "5b19d354-f616-4480-bf6f-eca75308bb35",
+  "displayName": "Raise a ticket",
+  "form": {
+    "parameters": [ {
+      "displayName": "cat_entity",
+      "required": true,
+      "entityType": "@category_entity",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please select a category" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Sales"
+                }, {
+                  "text": "Order"
+                }, {
+                  "text": "Shipping and Delivery"
+                }, {
+                  "text": "My Account"
+                }, {
+                  "text": "Request a New GPN"
+                }, {
+                  "text": "Request a New POP Code"
+                }, {
+                  "text": "Request a New Country to Ship to"
+                }, {
+                  "text": "Forecast"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "raise a ticket",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please select a category" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Sales"
+            }, {
+              "text": "Order"
+            }, {
+              "text": "Shipping and Delivery"
+            }, {
+              "text": "My Account"
+            }, {
+              "text": "Request a New GPN"
+            }, {
+              "text": "Request a New POP Code"
+            }, {
+              "text": "Request a New Country to Ship to"
+            }, {
+              "text": "Forecast"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "Category ",
+        "value": "Category"
+      } ]
+    },
+    "targetPage": "select priority",
+    "name": "70c9d285-689b-468c-9221-3ccf50404fb5"
+  } ]
+}

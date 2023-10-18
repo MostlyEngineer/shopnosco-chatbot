@@ -1,0 +1,40 @@
+{
+  "name": "475826a5-0d13-41cc-8ad0-56247986c151",
+  "displayName": "Webhook",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.customer.care",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Customer Care",
+    "name": "b6a323ee-c206-47c7-95cb-f831c4407c61"
+  }, {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "f309c4e8-017e-4264-bab2-5e751bd14f85"
+  }, {
+    "intent": "redirect.track.order",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Track Order",
+    "name": "4288bd79-3529-4d61-91ac-7b4e299516b7"
+  }, {
+    "intent": "message.from.user",
+    "triggerFulfillment": {
+      "webhook": "raise a ticket",
+      "tag": "ticket"
+    },
+    "targetPage": "Current Page",
+    "name": "0f4015b4-65b5-41c1-8115-bf23b21c2618"
+  } ]
+}

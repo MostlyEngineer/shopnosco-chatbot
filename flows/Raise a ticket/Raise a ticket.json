@@ -1,0 +1,46 @@
+{
+  "name": "20291dc3-53f6-476b-b333-73c5b9f390cb",
+  "displayName": "Raise a ticket",
+  "transitionRoutes": [ {
+    "intent": "redirect.raise.ticket",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please choose a category from the following options" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Category selection",
+    "name": "6f3ffcc7-ee5d-4453-97f6-3dac3b03a039"
+  } ],
+  "eventHandlers": [ {
+    "targetFlow": "Default Start Flow",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0299ab34-17d1-4e75-9730-244623f979aa"
+  }, {
+    "targetFlow": "Default Start Flow",
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e3ed6d33-c86b-402c-9991-d8bcd5c6de58"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "6b994b0c-edd6-42d8-a9b4-47b36da520f5",
+  "displayName": "Query input",
+  "form": {
+    "parameters": [ {
+      "displayName": "user_query",
+      "required": true,
+      "entityType": "@user_message",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please provide your query or question." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "message.from.user",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Webhook",
+    "name": "c66b8507-61d8-4e0e-bdd0-1b5d6949db84"
+  }, {
+    "condition": "$sys.any = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Webhook",
+    "name": "aa277b7b-da66-4f01-979f-8dc6200972bf"
+  } ]
+}

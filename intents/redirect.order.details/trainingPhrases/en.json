@@ -1,0 +1,26 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "get the lates orderd items",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "find my last ",
+      "auto": true
+    }, {
+      "text": "five",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "orders",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

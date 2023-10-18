@@ -1,0 +1,44 @@
+{
+  "name": "1ad41e3d-9d3f-47b4-8bca-2701ae4b1a9b",
+  "displayName": "Track Order",
+  "transitionRoutes": [ {
+    "intent": "redirect.track.order",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Definitely. What is your Order ID?", "Definitely. What is your Order Number?", "Please enter your Order Number.", "Sure. Please enter your Order ID." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "order status tracking",
+    "name": "d47ebfdb-a8a0-46a8-87d8-2765a6d17b32"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "be6f93f4-aad4-4d61-a02f-ba7d499c69b1"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fc80a41c-f29c-4dc6-a92a-fb0ba7d2edd8"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

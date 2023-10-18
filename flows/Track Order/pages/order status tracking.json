@@ -1,0 +1,61 @@
+{
+  "name": "b2c22cab-6357-46ba-8672-9b267821fc51",
+  "displayName": "order status tracking",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Customer Support"
+          }, {
+            "text": "Raise a Ticket"
+          }, {
+            "text": "Ask a Query"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.track-order.ongoing-tracking",
+    "triggerFulfillment": {
+      "webhook": "Track order webhook",
+      "tag": "server"
+    },
+    "targetPage": "order status tracking",
+    "name": "3560a57a-c260-465c-b4b2-090efe12e73b"
+  }, {
+    "intent": "redirect.raise.ticket",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Raise Ticket",
+    "name": "177d1f66-eec2-4f07-a2bf-ae79ba105f3d"
+  }, {
+    "intent": "redirect.customer.care",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Customer Care",
+    "name": "e58789fe-82a0-4312-84ce-e0e4dfaa3245"
+  }, {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "4e71e4d9-9d22-4311-9040-81afefadd60c"
+  }, {
+    "intent": "ask a query ",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Ask your query",
+    "name": "69456700-fb30-49a2-b465-adbdf1cacacd"
+  } ]
+}

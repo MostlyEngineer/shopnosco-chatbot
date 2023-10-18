@@ -1,0 +1,7 @@
+{
+  "name": "291cafa6-8c1a-4e00-a37c-8efbba5e0911",
+  "displayName": "redirect.customer.care",
+  "priority": 500000,
+  "description": "when users want to connect to customer care.\n",
+  "numTrainingPhrases": 6
+}

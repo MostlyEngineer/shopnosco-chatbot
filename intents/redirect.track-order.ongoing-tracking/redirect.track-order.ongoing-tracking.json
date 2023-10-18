@@ -1,0 +1,10 @@
+{
+  "name": "e2ed7b6b-c9bb-479a-b06b-f8dfe998c7af",
+  "displayName": "redirect.track-order.ongoing-tracking",
+  "parameters": [ {
+    "id": "Order_id",
+    "entityType": "@OrderNumber"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

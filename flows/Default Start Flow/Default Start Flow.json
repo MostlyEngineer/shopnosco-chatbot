@@ -1,0 +1,104 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome to Shopnosco! How may I help you?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Track Order"
+            }, {
+              "text": "Raise a Ticket"
+            }, {
+              "text": "Customer Support"
+            }, {
+              "text": "Ask a query"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "141a6a05-e915-4d18-9803-8bdfb5d88863"
+  }, {
+    "intent": "redirect.track.order",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Track Order",
+    "name": "9565da8d-3d71-405d-bb73-38fae2e7d307"
+  }, {
+    "intent": "redirect.customer.care",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Customer Care",
+    "name": "64105596-39af-421b-a6f5-abf9db8abe61"
+  }, {
+    "intent": "redirect.raise.ticket",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Raise a ticket",
+    "name": "d0b63e33-798f-4298-b48b-a60f0d51f0a9"
+  }, {
+    "intent": "ask a query ",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Ask your query",
+    "name": "4db9fec2-3477-4bb3-ad4f-134ae491e5de"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Track Order"
+            }, {
+              "text": "Raise a Ticket"
+            }, {
+              "text": "Customer Support"
+            }, {
+              "text": "Ask a query"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0af253c8-f165-4c18-a215-90d3937ff893"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9e1523fd-ab82-4577-b006-9292d3197e98"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "a957be3c-6f77-4f11-baa3-5366ab93bb42",
+  "displayName": "Priority Selection",
+  "form": {
+    "parameters": [ {
+      "displayName": "priority",
+      "required": true,
+      "entityType": "@Priority",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Low"
+          }, {
+            "text": "Medium"
+          }, {
+            "text": "High"
+          }, {
+            "text": "Urgent"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "select.priority",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Query input",
+    "name": "7f7a6d07-4e8e-40d5-855a-46b467261d58"
+  }, {
+    "condition": "$sys.any = low OR $sys.any = medium OR $sys.any = high OR $sys.any = urgent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Query input",
+    "name": "9d4de8c5-0df9-4c62-aa5d-311969800931"
+  } ]
+}

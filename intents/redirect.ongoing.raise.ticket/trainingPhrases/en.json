@@ -1,0 +1,32 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "my ",
+      "auto": true
+    }, {
+      "text": "order",
+      "parameterId": "catogory",
+      "auto": true
+    }, {
+      "text": " id is ",
+      "auto": true
+    }, {
+      "text": "34534",
+      "parameterId": "OrderNumber"
+    }, {
+      "text": " with prioriy is ",
+      "auto": true
+    }, {
+      "text": "low"
+    }, {
+      "text": " what is the status of my ",
+      "auto": true
+    }, {
+      "text": "order",
+      "parameterId": "catogory1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

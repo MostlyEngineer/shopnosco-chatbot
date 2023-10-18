@@ -1,0 +1,11 @@
+{
+  "name": "6c37958d-45cf-4028-8ca2-68e578f9154d",
+  "displayName": "custom request",
+  "parameters": [ {
+    "id": "ordernumber",
+    "entityType": "@OrderNumber"
+  } ],
+  "priority": 500000,
+  "description": "getting past orders of the user",
+  "numTrainingPhrases": 9
+}

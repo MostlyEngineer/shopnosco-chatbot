@@ -1,0 +1,22 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i have a "
+    }, {
+      "text": "order",
+      "auto": true
+    }, {
+      "text": " id "
+    }, {
+      "text": "3456323",
+      "parameterId": "OrderNumber"
+    }, {
+      "text": " i wanted to know the status of the "
+    }, {
+      "text": "order",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

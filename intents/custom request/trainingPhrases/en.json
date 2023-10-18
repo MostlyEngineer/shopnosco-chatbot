@@ -1,0 +1,93 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "alter the column name increamrnt id",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "get ",
+      "auto": true
+    }, {
+      "text": "order",
+      "auto": true
+    }, {
+      "text": " id which are in transit",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what is the order status of "
+    }, {
+      "text": "3454343",
+      "parameterId": "ordernumber"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "find me the status of ",
+      "auto": true
+    }, {
+      "text": "776138375187",
+      "parameterId": "ordernumber",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "order",
+      "auto": true
+    }, {
+      "text": " summery of my past ordes",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "get me a summery of my past ",
+      "auto": true
+    }, {
+      "text": "orders",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "get my last "
+    }, {
+      "text": "5"
+    }, {
+      "text": " order details"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "get my last "
+    }, {
+      "text": "five"
+    }, {
+      "text": " orders"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "get my previous ",
+      "auto": true
+    }, {
+      "text": "order",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

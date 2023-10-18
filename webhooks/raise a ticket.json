@@ -1,0 +1,10 @@
+{
+  "name": "da1105d3-83f1-4a8a-a490-2bb2f01790e6",
+  "displayName": "raise a ticket",
+  "genericWebService": {
+    "uri": "https://dialog-flow.rscloudteam.com/raise_ticket"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

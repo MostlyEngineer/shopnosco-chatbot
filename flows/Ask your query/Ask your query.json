@@ -1,0 +1,44 @@
+{
+  "name": "ba467627-aaf9-4a5e-a3d0-5e237691557a",
+  "displayName": "Ask your query",
+  "transitionRoutes": [ {
+    "intent": "ask a query ",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can ask something like, \"Find me orders which status is in transit\"" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "webhook",
+    "name": "31b2f54c-5de5-46ea-add4-61e8997900b7"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "57511531-c004-464f-ba04-43a3b14e4821"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "da23816a-a128-4198-bb11-e3a61a631957"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

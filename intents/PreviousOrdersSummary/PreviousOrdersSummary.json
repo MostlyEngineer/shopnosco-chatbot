@@ -1,0 +1,10 @@
+{
+  "name": "81ac7c85-d859-49fd-be31-ea6cdd7ebb62",
+  "displayName": "PreviousOrdersSummary",
+  "parameters": [ {
+    "id": "numbers",
+    "entityType": "@numbers"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

@@ -1,0 +1,16 @@
+{
+  "name": "f7824933-9e98-4d27-879e-1f7f9d823b78",
+  "displayName": "redirect.ongoing.raise.ticket",
+  "parameters": [ {
+    "id": "catogory",
+    "entityType": "@category_entity"
+  }, {
+    "id": "catogory1",
+    "entityType": "@category_entity"
+  }, {
+    "id": "OrderNumber",
+    "entityType": "@OrderNumber"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

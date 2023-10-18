@@ -1,0 +1,10 @@
+{
+  "name": "2ad84d9a-221a-4e51-922c-f1c466585c61",
+  "displayName": "Track order webhook",
+  "genericWebService": {
+    "uri": "https://dialog-flow.rscloudteam.com/track_order"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

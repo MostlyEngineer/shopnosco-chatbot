@@ -1,0 +1,70 @@
+{
+  "name": "9944a948-f10c-405e-aab4-fd1563d4174f",
+  "displayName": "select priority",
+  "form": {
+    "parameters": [ {
+      "displayName": "prority_entity",
+      "required": true,
+      "entityType": "@Priority",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Choose a priority" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Low"
+                }, {
+                  "text": "Medium"
+                }, {
+                  "text": "High"
+                }, {
+                  "text": "Urgent"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "select.priority",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Choose a priority" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Low"
+            }, {
+              "text": "Medium"
+            }, {
+              "text": "High"
+            }, {
+              "text": "Urgent"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "Priority ",
+        "value": "Priority"
+      } ]
+    },
+    "targetPage": "user response",
+    "name": "614834f0-53fa-4018-9b2b-594d22e75597"
+  } ]
+}

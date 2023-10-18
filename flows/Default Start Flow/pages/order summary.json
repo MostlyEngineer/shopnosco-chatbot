@@ -1,0 +1,19 @@
+{
+  "name": "4b3d0e6d-3ef8-484a-bffd-c67133fb8d5a",
+  "displayName": "order summary",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "PreviousOrdersSummary",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "q" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9e9040fe-58f1-43dd-aff8-a5c499860d7b"
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "sales",
+    "synonyms": [ "sales" ],
+    "languageCode": "en"
+  }, {
+    "value": "order",
+    "synonyms": [ "order" ],
+    "languageCode": "en"
+  }, {
+    "value": "shipping and delivery",
+    "synonyms": [ "shipping and delivery" ],
+    "languageCode": "en"
+  }, {
+    "value": "my account",
+    "synonyms": [ "my account" ],
+    "languageCode": "en"
+  }, {
+    "value": "request a new gpn",
+    "synonyms": [ "request a new gpn" ],
+    "languageCode": "en"
+  }, {
+    "value": "request a new pop code",
+    "synonyms": [ "request a new pop code" ],
+    "languageCode": "en"
+  }, {
+    "value": "request a new country to ship to",
+    "synonyms": [ "request a new country to ship to" ],
+    "languageCode": "en"
+  }, {
+    "value": "forecast",
+    "synonyms": [ "forecast" ],
+    "languageCode": "en"
+  } ]
+}

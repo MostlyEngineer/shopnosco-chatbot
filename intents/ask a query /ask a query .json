@@ -1,0 +1,7 @@
+{
+  "name": "a62e43a2-88bf-44a7-be38-7325cd06b49b",
+  "displayName": "ask a query ",
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 10
+}

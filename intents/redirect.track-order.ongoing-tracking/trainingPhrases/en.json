@@ -1,0 +1,94 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "order",
+      "auto": true
+    }, {
+      "text": " is "
+    }, {
+      "text": "ABCD123",
+      "parameterId": "Order_id"
+    }, {
+      "text": ", what is the status?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to track my order  "
+    }, {
+      "text": "334565434",
+      "parameterId": "Order_id"
+    } ],
+    "repeatCount": 2,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to track my "
+    }, {
+      "text": "order",
+      "auto": true
+    }, {
+      "text": "  "
+    }, {
+      "text": "IF334565434",
+      "parameterId": "Order_id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to track my order  "
+    }, {
+      "text": "IF334565434",
+      "parameterId": "Order_id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "here is my order id "
+    }, {
+      "text": "23455",
+      "parameterId": "Order_id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "order id is "
+    }, {
+      "text": "3424235345",
+      "parameterId": "Order_id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "3459876543",
+      "parameterId": "Order_id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "IFA0989443883",
+      "parameterId": "Order_id"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My order is "
+    }, {
+      "text": "ABCD123",
+      "parameterId": "Order_id"
+    }, {
+      "text": ", what is the status?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

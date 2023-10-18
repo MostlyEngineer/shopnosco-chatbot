@@ -1,0 +1,57 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "get order summary",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "order",
+      "auto": true
+    }, {
+      "text": " summary",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "get my previous "
+    }, {
+      "text": "5",
+      "parameterId": "numbers"
+    }, {
+      "text": " order details"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Previous ",
+      "auto": true
+    }, {
+      "text": "Orders",
+      "auto": true
+    }, {
+      "text": " summary",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "get my previous ",
+      "auto": true
+    }, {
+      "text": "order",
+      "auto": true
+    }, {
+      "text": " details",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

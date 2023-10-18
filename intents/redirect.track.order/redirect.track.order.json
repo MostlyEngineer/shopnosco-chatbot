@@ -1,0 +1,7 @@
+{
+  "name": "4703463f-9abd-4981-a3d1-1b69d8593301",
+  "displayName": "redirect.track.order",
+  "priority": 500000,
+  "description": "redirect to web hook to fetch the tracking status",
+  "numTrainingPhrases": 6
+}

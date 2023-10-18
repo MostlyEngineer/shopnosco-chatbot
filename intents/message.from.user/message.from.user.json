@@ -1,0 +1,10 @@
+{
+  "name": "d50b6519-2067-4760-94ba-195677e73495",
+  "displayName": "message.from.user",
+  "parameters": [ {
+    "id": "OrderNumber",
+    "entityType": "@OrderNumber"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

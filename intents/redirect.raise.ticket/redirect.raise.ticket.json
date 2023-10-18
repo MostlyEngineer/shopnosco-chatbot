@@ -1,0 +1,11 @@
+{
+  "name": "91d0909f-5256-4dad-bc90-c014f6c4459c",
+  "displayName": "redirect.raise.ticket",
+  "parameters": [ {
+    "id": "RaiseTicket",
+    "entityType": "@RaiseTicket"
+  } ],
+  "priority": 500000,
+  "description": "raise a ticket",
+  "numTrainingPhrases": 11
+}

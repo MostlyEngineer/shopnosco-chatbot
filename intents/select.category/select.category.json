@@ -1,0 +1,10 @@
+{
+  "name": "241913f2-3b92-4431-a551-f846be6f3ca0",
+  "displayName": "select.category",
+  "parameters": [ {
+    "id": "catogory",
+    "entityType": "@category_entity"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}
